@@ -1,0 +1,36 @@
+.productive__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+
+  margin-bottom: 8em;
+}
+
+.productive__container > img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+}
+
+.productive__container--text {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  gap: 1.5em;
+}
+
+.productive__container--text > a > p {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  max-width: 9.2rem;
+  color: hsla(176, 68%, 64%, 0.705);
+
+  border-bottom: solid 1px;
+}
+
+.productive__container--text > a > p > img {
+  margin-left: 3px;
+}

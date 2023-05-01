@@ -1,0 +1,75 @@
+.email__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  /* max-width: 900px; */
+  margin-top: 8em;
+  padding: 2em 0;
+  background: linear-gradient(hsl(218, 28%, 13%) 50%, hsl(216, 53%, 9%) 50%);
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+
+  width: 80%;
+  max-width: 900px;
+  text-align: center;
+  background-color: hsl(217, 28%, 15%);
+  padding: 2em;
+  border-radius: 5px;
+}
+
+form > h1 {
+  font-size: 32px;
+  margin-bottom: 0.5em;
+}
+
+form > p {
+  max-width: 70%;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+form > input {
+  padding: 1em 2em;
+  color: black;
+  border: none;
+  border-radius: 25px;
+  outline: none;
+  width: 50%;
+}
+form > input::placeholder {
+  color: rgb(160, 158, 158);
+}
+
+form > button {
+  background: linear-gradient(90deg, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+  border: none;
+  padding: 1em 2em;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+form > button:hover {
+  background: linear-gradient(90deg, hsl(176, 68%, 64%), hsl(176, 68%, 64%));
+}
+
+@media screen and (max-width: 724px) {
+  form {
+    flex-direction: column;
+  }
+  form > input {
+    padding: 1em 2.3em;
+    max-width: 170px;
+  }
+  form > button {
+    padding: 1em 4em;
+    max-width: 250px;
+  }
+}

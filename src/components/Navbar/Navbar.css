@@ -1,0 +1,25 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3em;
+}
+
+nav > img {
+  width: 8em;
+}
+
+ul {
+  display: flex;
+}
+
+ul > li {
+  margin-left: 3em;
+  list-style-type: none;
+  transition: 0.6s;
+}
+ul > li:hover {
+  color: white;
+  text-decoration: underline;
+  transition: 0.6s;
+}

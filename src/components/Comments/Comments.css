@@ -1,0 +1,38 @@
+.comments__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2em;
+}
+
+.comments__container > div {
+  background-color: #21293c;
+  padding: 2em 2em 1em 2em;
+  max-width: 300px;
+  border-radius: 5px;
+  z-index: 5;
+}
+
+.comments__container > div > div {
+  display: flex;
+  align-items: center;
+  margin-top: 2em;
+}
+.comments__container > div > div > img {
+  max-width: 30px;
+  border-radius: 50%;
+}
+
+.comments__container > div > div > div {
+  margin-left: 0.75rem;
+}
+
+.comments__container > div > div > div > p {
+  font-size: 8px;
+}
+
+.quotes {
+  position: relative;
+  top: 10px;
+  z-index: 0;
+}
