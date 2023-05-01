@@ -80,6 +80,14 @@ footer > img {
 }
 
 @media screen and (max-width: 520px) {
+  footer {
+    padding: 2em 4em;
+  }
+
+  footer > img {
+    margin-left: 2em;
+  }
+
   .footer__container-content {
     flex-direction: column;
   }
